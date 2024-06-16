@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+/* box1 */
+nav{
+    height: 729px;
+    background-image: url(main.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.nav-body{
+    padding-top: 10px;
+    height: 68px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    margin-right: 300px;
+    text-align: center;
+}
+
+#text1{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+li{
+    display: inline-flex;
+    padding-left: 60px;
+}
+ul{
+    display: flex;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 600;
+    transition: transform 1.2s ease;
+}
+
+#box{
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 180px;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    margin-right: 200px;
+}
+
+a:hover{
+    transform: scale(1.1);
+    border-top: 2px solid #ca8a04;
+    border-bottom: 2px solid #ca8a04;
+}
+
+/* box2  */
+
+.main-body{
+text-align: center; 
+margin-top: 60px;   
+}
+
+#text2{
+    padding-top: 50px;
+    font-size: 55px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#text3{
+    font-size: 120px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#text4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+button{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(53, 45, 45);
+    border: 2px solid black;
+    background-color: yellow;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+}
+
+/* box3 */
+.body{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#text5{
+    font-size: 47px;
+    font-weight: 600;
+    color: gray;
+}
+
+.body-line{
+    background-color: yellow;
+    height: 4px;
+    width: 150px;
+    margin-left: 710px;
+}
+
+/* box4 */
+.body-photo{
+    margin-top: 24px;
+    display: flex;
+}
+
+.photo1{
+    margin-left: 240px;
+    text-align: center;
+    background-image: url(service-1.png);
+    background-position: center;
+    background-size: cover;
+    height: 430px;
+    width: 330px;
+    transition: transform 0.3s ease;
+
+}
+
+.photo2{
+    margin-left: 20px;
+    text-align: center;
+    background-image: url(service-2.png);
+    background-position: center;
+    background-size: cover;
+    height: 430px;
+    width: 330px;
+}
+
+.photo3{
+    margin-left: 20px;
+    text-align: center;
+    background-image: url(service-3.png);
+    background-position: center;
+    background-size: cover;
+    height: 430px;
+    width: 330px;
+}
+
+#text6{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 435px;
+}
+
+/* box5 */
+
+.body-original{
+    background-color: #f1f2fa;
+    margin-top: 70px;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+}
+#quote{
+    margin-top: 20px;
+}
+
+#text7{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.body-profile{
+    margin-top: 15px;
+}
+
+/* box6 */
+
+.about{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.about-text{
+    margin-top: 220px;
+    height: 500px;
+    width: 40%;
+    margin-left: 200px;
+}
+
+#text8{
+    color: rgb(96, 98, 101);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#text9{
+    color: rgb(96, 98, 101);
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#text10{
+    color: rgb(96, 98, 101);
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#about-button{
+    border: none;
+}
+
+.about-photo{
+    margin-left: 120px;
+}
+
+/* box7 */
+
+footer{
+    background-image: url(main-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.footer-text{
+    padding-top: 130px;
+    text-align: center;
+}
+
+#text11{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+#text12{
+    font-size: 22px;
+}
